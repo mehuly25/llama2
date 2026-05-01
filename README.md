@@ -142,19 +142,12 @@ If you use this code or dataset in your work, please cite:
 ```bibtex
 @inproceedings{your_paper_2026,
   title     = {Activation Steering in Llama 2 7B for Bilingual Bias Detection},
-  author    = {[Mehuly Chakraborthy]},
+  author    = {Mehuly Chakraborthy},
   booktitle = {To be updated},
   year      = {2026}
 }
 ```
 
----
-
-## Notes on AIES Submission
-
-This repository accompanies a paper submitted to **AIES 2026** (9th AAAI/ACM Conference on AI, Ethics, and Society). GPT-4 was used exclusively to generate custom bias prompts as part of the experimental data — not to write any portion of the paper text.
-
----
 
 ## Based On
 
@@ -165,7 +158,7 @@ This project builds on the code and methodology from:
 > arXiv:2402.00402v1, February 2024
 > [https://arxiv.org/abs/2402.00402](https://arxiv.org/abs/2402.00402)
 
-The original work applies Contrastive Activation Steering to study bias in Llama 2 using **English-only** prompts. This project extends their framework by introducing a **parallel Italian dataset** (machine-translated and human-verified), enabling the first cross-linguistic comparison of bias representations and refusal behaviour under activation steering.
+#### The original work applies Contrastive Activation Steering to study bias in Llama 2 using **English-only** prompts. This project extends their framework by introducing a **parallel Italian dataset** (machine-translated and human-verified), enabling the first cross-linguistic comparison of bias representations and refusal behaviour under activation steering.
 ---
 
 ## License
